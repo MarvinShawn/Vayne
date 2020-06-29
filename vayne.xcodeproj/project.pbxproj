@@ -19,6 +19,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* vayneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* vayneTests.m */; };
 		494D6162E4FF71E1074267F9 /* libPods-vayne-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E73105275F1547EAD9C7656 /* libPods-vayne-tvOS.a */; };
 		B1CFEC2722A7B0F5E89179C5 /* libPods-vayne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1F3ED5FD15BFF4B3B2A9C3 /* libPods-vayne.a */; };
+		BAC9D35024A1C3BB00393329 /* JSBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9D34E24A1C3BB00393329 /* JSBridgeManager.m */; };
 		BBBEE62F26A8E0BC356DE819 /* libPods-vayne-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F093263D89CCE2252EAB41 /* libPods-vayne-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,9 @@
 		73AB58FE10EA216CEB7FC909 /* Pods-vayne-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vayne-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-vayne-tvOS/Pods-vayne-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECB8EEF267FA10004F78CD2 /* Pods-vayne-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vayne-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-vayne-tvOSTests/Pods-vayne-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		85CE32086CBD0281E2DAC605 /* Pods-vayne-vayneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vayne-vayneTests.release.xcconfig"; path = "Target Support Files/Pods-vayne-vayneTests/Pods-vayne-vayneTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAC9D34E24A1C3BB00393329 /* JSBridgeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeManager.m; sourceTree = "<group>"; };
+		BAC9D34F24A1C3BB00393329 /* JSBridgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridgeManager.h; sourceTree = "<group>"; };
+		BAC9D35124A1C42100393329 /* RCTBridge+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+Custom.h"; sourceTree = "<group>"; };
 		D8935DE80B174520E535F927 /* Pods-vayne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vayne.release.xcconfig"; path = "Target Support Files/Pods-vayne/Pods-vayne.release.xcconfig"; sourceTree = "<group>"; };
 		DBA43C8D4F7B4EF3D4E37B86 /* Pods-vayne-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vayne-tvOS.release.xcconfig"; path = "Target Support Files/Pods-vayne-tvOS/Pods-vayne-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -125,6 +129,7 @@
 		13B07FAE1A68108700A75B9A /* vayne */ = {
 			isa = PBXGroup;
 			children = (
+				BAC9D34D24A1C3BB00393329 /* JSBridgeManager */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -182,6 +187,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BAC9D34D24A1C3BB00393329 /* JSBridgeManager */ = {
+			isa = PBXGroup;
+			children = (
+				BAC9D34F24A1C3BB00393329 /* JSBridgeManager.h */,
+				BAC9D34E24A1C3BB00393329 /* JSBridgeManager.m */,
+				BAC9D35124A1C42100393329 /* RCTBridge+Custom.h */,
+			);
+			name = JSBridgeManager;
+			path = vayne/JSBridgeManager;
+			sourceTree = "<group>";
+		};
 		FAA489302354050D5B7BA1FE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +210,6 @@
 				F7552FA91AC18A114AA4B3E3 /* Pods-vayne-vayneTests.debug.xcconfig */,
 				85CE32086CBD0281E2DAC605 /* Pods-vayne-vayneTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -530,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC9D35024A1C3BB00393329 /* JSBridgeManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
