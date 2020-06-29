@@ -5,10 +5,7 @@
 //  Created by 肖怡宁 on 2020/6/23.
 //
 
-#import <AppKit/AppKit.h>
-
-
-#import "RCTBridge.h"
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

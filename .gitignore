@@ -89,6 +89,5 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-react-native/node_modules
-
-Pods/
+Pods
+node_modules
