@@ -292,6 +292,7 @@ PODS:
     - React-cxxreact (= 0.62.2)
     - React-jsi (= 0.62.2)
     - ReactCommon/callinvoker (= 0.62.2)
+  - SSZipArchive (2.2.3)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -343,6 +344,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `./node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/callinvoker (from `./node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `./node_modules/react-native/ReactCommon`)
+  - SSZipArchive (~> 2.2.3)
   - Yoga (from `./node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -358,6 +360,7 @@ SPEC REPOS:
     - Flipper-RSocket
     - FlipperKit
     - OpenSSL-Universal
+    - SSZipArchive
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -448,9 +451,10 @@ SPEC CHECKSUMS:
   React-RCTText: fae545b10cfdb3d247c36c56f61a94cfd6dba41d
   React-RCTVibration: 4356114dbcba4ce66991096e51a66e61eda51256
   ReactCommon: ed4e11d27609d571e7eee8b65548efc191116eb3
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 54a3894875380c36d4ccab1ddff1334b7220434d
+PODFILE CHECKSUM: 604d7ca76b63a1c802d1111f368332e5d3ad69f6
 
 COCOAPODS: 1.9.3

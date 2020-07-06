@@ -12,7 +12,8 @@ npx react-native bundle \
 
 echo "--💐主包打包完成💐--"
 
-echo "--🚀开始打业务包a🚀--"
+
+echo "--🚀开始打业务包b🚀--"
 
 npx react-native bundle \
 --platform ios \
@@ -23,3 +24,29 @@ npx react-native bundle \
 --config buz.config.js\
 
 echo "--💐业务包a打包完成💐--"
+
+
+echo "--🚀开始打业务包b🚀--"
+
+npx react-native bundle \
+--platform ios \
+--dev false \
+--entry-file rn/src/business_b/index.js \
+--bundle-output rn/dist/buz/buz_b.bundle \
+--assets-dest rn/dist/buz/buz_b_assets/ \
+--config buz.config.js\
+
+echo "--💐业务包b打包完成💐--"
+
+
+echo "--🚀开始打业务包c🚀--"
+
+npx react-native bundle \
+--platform ios \
+--dev false \
+--entry-file rn/src/business_c/index.js \
+--bundle-output rn/dist/buz/buz_c.bundle \
+--assets-dest rn/dist/buz/buz_c_assets/ \
+--config buz.config.js\
+
+echo "--💐业务包c打包完成💐--"

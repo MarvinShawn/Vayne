@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RCTBridge (Custom)  //暴露接口
+@interface RCTBridge (Vayne)  //暴露接口
 
 - (void)executeSourceCode:(NSData *)sourceCode sync:(BOOL)sync;
 

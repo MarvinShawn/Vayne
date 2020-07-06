@@ -17,7 +17,18 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* vayneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* vayneTests.m */; };
 		B1CFEC2722A7B0F5E89179C5 /* libPods-vayne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1F3ED5FD15BFF4B3B2A9C3 /* libPods-vayne.a */; };
-		BAC9D35024A1C3BB00393329 /* JSBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9D34E24A1C3BB00393329 /* JSBridgeManager.m */; };
+		BA569DFB24AC4BDD00EECE26 /* RootNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA569DFA24AC4BDD00EECE26 /* RootNavVC.m */; };
+		BA569DFE24AC4E7900EECE26 /* RootTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA569DFD24AC4E7900EECE26 /* RootTabVC.m */; };
+		BA569E0424AC698E00EECE26 /* OneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA569E0324AC698E00EECE26 /* OneVC.m */; };
+		BA569E0824ACCED000EECE26 /* VaynePush.m in Sources */ = {isa = PBXBuildFile; fileRef = BA569E0724ACCED000EECE26 /* VaynePush.m */; };
+		BA569E0B24ACE2C000EECE26 /* VaynePushDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA569E0A24ACE2C000EECE26 /* VaynePushDownloader.m */; };
+		BA569E0E24AD8A5400EECE26 /* VaynePushPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = BA569E0D24AD8A5400EECE26 /* VaynePushPackage.m */; };
+		BA569E1124ADCF5C00EECE26 /* VaynePushUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA569E1024ADCF5C00EECE26 /* VaynePushUtils.m */; };
+		BA569E1624AF65F800EECE26 /* VayneJSBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA569E1524AF65F800EECE26 /* VayneJSBridgeManager.m */; };
+		BA569E1C24AF69DA00EECE26 /* buz_a.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA569E1724AF69D900EECE26 /* buz_a.bundle */; };
+		BA569E1D24AF69DA00EECE26 /* common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA569E1824AF69D900EECE26 /* common.bundle */; };
+		BA569E1E24AF69DA00EECE26 /* buz_b.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA569E1924AF69D900EECE26 /* buz_b.bundle */; };
+		BA569E1F24AF69DA00EECE26 /* buz_c.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA569E1B24AF69DA00EECE26 /* buz_c.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* vayneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vayneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* vayneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vayneTests.m; sourceTree = "<group>"; };
@@ -53,9 +63,27 @@
 		2D02E4901E0B4A5D006451C7 /* vayne-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vayne-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1F3ED5FD15BFF4B3B2A9C3 /* libPods-vayne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vayne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B58795C3A576016CDB00F18 /* Pods-vayne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vayne.debug.xcconfig"; path = "Target Support Files/Pods-vayne/Pods-vayne.debug.xcconfig"; sourceTree = "<group>"; };
-		BAC9D34E24A1C3BB00393329 /* JSBridgeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeManager.m; sourceTree = "<group>"; };
-		BAC9D34F24A1C3BB00393329 /* JSBridgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridgeManager.h; sourceTree = "<group>"; };
-		BAC9D35124A1C42100393329 /* RCTBridge+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+Custom.h"; sourceTree = "<group>"; };
+		BA569DF924AC4BDD00EECE26 /* RootNavVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootNavVC.h; sourceTree = "<group>"; };
+		BA569DFA24AC4BDD00EECE26 /* RootNavVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootNavVC.m; sourceTree = "<group>"; };
+		BA569DFC24AC4E7900EECE26 /* RootTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabVC.h; sourceTree = "<group>"; };
+		BA569DFD24AC4E7900EECE26 /* RootTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabVC.m; sourceTree = "<group>"; };
+		BA569E0224AC698E00EECE26 /* OneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneVC.h; sourceTree = "<group>"; };
+		BA569E0324AC698E00EECE26 /* OneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneVC.m; sourceTree = "<group>"; };
+		BA569E0624ACCED000EECE26 /* VaynePush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VaynePush.h; sourceTree = "<group>"; };
+		BA569E0724ACCED000EECE26 /* VaynePush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaynePush.m; sourceTree = "<group>"; };
+		BA569E0924ACE2C000EECE26 /* VaynePushDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VaynePushDownloader.h; sourceTree = "<group>"; };
+		BA569E0A24ACE2C000EECE26 /* VaynePushDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaynePushDownloader.m; sourceTree = "<group>"; };
+		BA569E0C24AD8A5400EECE26 /* VaynePushPackage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VaynePushPackage.h; sourceTree = "<group>"; };
+		BA569E0D24AD8A5400EECE26 /* VaynePushPackage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaynePushPackage.m; sourceTree = "<group>"; };
+		BA569E0F24ADCF5C00EECE26 /* VaynePushUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VaynePushUtils.h; sourceTree = "<group>"; };
+		BA569E1024ADCF5C00EECE26 /* VaynePushUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaynePushUtils.m; sourceTree = "<group>"; };
+		BA569E1424AF65F800EECE26 /* VayneJSBridgeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VayneJSBridgeManager.h; sourceTree = "<group>"; };
+		BA569E1524AF65F800EECE26 /* VayneJSBridgeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VayneJSBridgeManager.m; sourceTree = "<group>"; };
+		BA569E1724AF69D900EECE26 /* buz_a.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = buz_a.bundle; sourceTree = "<group>"; };
+		BA569E1824AF69D900EECE26 /* common.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common.bundle; sourceTree = "<group>"; };
+		BA569E1924AF69D900EECE26 /* buz_b.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = buz_b.bundle; sourceTree = "<group>"; };
+		BA569E1A24AF69DA00EECE26 /* RCTBridge+Vayne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+Vayne.h"; sourceTree = "<group>"; };
+		BA569E1B24AF69DA00EECE26 /* buz_c.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = buz_c.bundle; sourceTree = "<group>"; };
 		D8935DE80B174520E535F927 /* Pods-vayne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vayne.release.xcconfig"; path = "Target Support Files/Pods-vayne/Pods-vayne.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -114,14 +142,19 @@
 		13B07FAE1A68108700A75B9A /* vayne */ = {
 			isa = PBXGroup;
 			children = (
-				BAC9D34D24A1C3BB00393329 /* JSBridgeManager */,
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				BA569E0524AC7E4100EECE26 /* VaynePush */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				BA569DF924AC4BDD00EECE26 /* RootNavVC.h */,
+				BA569DFA24AC4BDD00EECE26 /* RootNavVC.m */,
+				BA569DFC24AC4E7900EECE26 /* RootTabVC.h */,
+				BA569DFD24AC4E7900EECE26 /* RootTabVC.m */,
+				BA569E0224AC698E00EECE26 /* OneVC.h */,
+				BA569E0324AC698E00EECE26 /* OneVC.m */,
 			);
 			name = vayne;
 			sourceTree = "<group>";
@@ -169,15 +202,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BAC9D34D24A1C3BB00393329 /* JSBridgeManager */ = {
+		BA569E0524AC7E4100EECE26 /* VaynePush */ = {
 			isa = PBXGroup;
 			children = (
-				BAC9D34F24A1C3BB00393329 /* JSBridgeManager.h */,
-				BAC9D34E24A1C3BB00393329 /* JSBridgeManager.m */,
-				BAC9D35124A1C42100393329 /* RCTBridge+Custom.h */,
+				BA569E1724AF69D900EECE26 /* buz_a.bundle */,
+				BA569E1924AF69D900EECE26 /* buz_b.bundle */,
+				BA569E1B24AF69DA00EECE26 /* buz_c.bundle */,
+				BA569E1824AF69D900EECE26 /* common.bundle */,
+				BA569E0624ACCED000EECE26 /* VaynePush.h */,
+				BA569E0724ACCED000EECE26 /* VaynePush.m */,
+				BA569E0924ACE2C000EECE26 /* VaynePushDownloader.h */,
+				BA569E0A24ACE2C000EECE26 /* VaynePushDownloader.m */,
+				BA569E0C24AD8A5400EECE26 /* VaynePushPackage.h */,
+				BA569E0D24AD8A5400EECE26 /* VaynePushPackage.m */,
+				BA569E0F24ADCF5C00EECE26 /* VaynePushUtils.h */,
+				BA569E1024ADCF5C00EECE26 /* VaynePushUtils.m */,
+				BA569E1424AF65F800EECE26 /* VayneJSBridgeManager.h */,
+				BA569E1524AF65F800EECE26 /* VayneJSBridgeManager.m */,
+				BA569E1A24AF69DA00EECE26 /* RCTBridge+Vayne.h */,
 			);
-			name = JSBridgeManager;
-			path = vayne/JSBridgeManager;
+			name = VaynePush;
+			path = vayne/VaynePush;
 			sourceTree = "<group>";
 		};
 		FAA489302354050D5B7BA1FE /* Pods */ = {
@@ -278,7 +323,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1130;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -324,7 +369,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA569E1E24AF69DA00EECE26 /* buz_b.bundle in Resources */,
+				BA569E1F24AF69DA00EECE26 /* buz_c.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				BA569E1C24AF69DA00EECE26 /* buz_a.bundle in Resources */,
+				BA569E1D24AF69DA00EECE26 /* common.bundle in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,9 +466,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC9D35024A1C3BB00393329 /* JSBridgeManager.m in Sources */,
+				BA569E0E24AD8A5400EECE26 /* VaynePushPackage.m in Sources */,
+				BA569DFB24AC4BDD00EECE26 /* RootNavVC.m in Sources */,
+				BA569E0B24ACE2C000EECE26 /* VaynePushDownloader.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				BA569E0424AC698E00EECE26 /* OneVC.m in Sources */,
+				BA569DFE24AC4E7900EECE26 /* RootTabVC.m in Sources */,
+				BA569E0824ACCED000EECE26 /* VaynePush.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				BA569E1124ADCF5C00EECE26 /* VaynePushUtils.m in Sources */,
+				BA569E1624AF65F800EECE26 /* VayneJSBridgeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +579,7 @@
 				);
 				INFOPLIST_FILE = vayne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -530,6 +587,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = vayne;
+				SWIFT_OBJC_BRIDGING_HEADER = "vayne-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -545,6 +603,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = vayne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -552,6 +611,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = vayne;
+				SWIFT_OBJC_BRIDGING_HEADER = "vayne-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

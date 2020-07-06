@@ -1,0 +1,4 @@
+__d(function(g,r,i,a,m,e,d){var n=r(d[0]),t=r(d[1]),u=n(r(d[2]));t.AppRegistry.registerComponent('buz_b',function(){return u.default})},"ed4157f34b1ada7c6d6bca14e317228b",["3e65d9ce974965f47088216bd50f5085","51c4a6a559f257330a0d314f47406565","85f0bf9504f352ba29d4d7cdf943d06c"]);
+__d(function(g,r,i,a,m,e,d){var t=r(d[0]);Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n=t(r(d[1])),l=r(d[2]),u=l.StyleSheet.create({container:{flex:1,justifyContent:'center',alignItems:'center',backgroundColor:'#FCFCFC'},buz_b_title:{fontSize:20,textAlign:'center'}}),c=function(){return n.default.createElement(l.View,{style:u.container},n.default.createElement(l.Text,{style:u.buz_b_title},"\u6211\u662f\u4e1a\u52a1b"))};e.default=c},"85f0bf9504f352ba29d4d7cdf943d06c",["3e65d9ce974965f47088216bd50f5085","2c4d30703ab8e5d9543b5c3fe87b72c2","51c4a6a559f257330a0d314f47406565"]);
+__r("4e053c1391f5aa8e5d34f15159692cee");
+__r("ed4157f34b1ada7c6d6bca14e317228b");

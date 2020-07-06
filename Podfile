@@ -79,6 +79,7 @@ target 'vayne' do
   pod 'DoubleConversion', :podspec => nodeModules + '/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => nodeModules + '/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => nodeModules + '/react-native/third-party-podspecs/Folly.podspec'
+  pod 'SSZipArchive', '~> 2.2.3'
 
   use_native_modules!
 

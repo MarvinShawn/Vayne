@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
 const App = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.buz_a_title}>我是业务1</Text>
+            <Text style={styles.buz_a_title}>我是业务a</Text>
         </View>
     )
 }
